@@ -3,6 +3,10 @@
 #include <stdint.h>
 #include <endian.h>
 
+/*
+double类型数据网络字节序与主机字节序之间的转换
+*/
+
 #define htonl64 htobe64
 #define ntohl64 be64toh
 
